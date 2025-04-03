@@ -136,3 +136,4 @@ bool revisarDiagonalS(string Matriz[3][3]) {
     cout << "No ganó nadie ☹️\n";
     return false;
 }
+//Entonces que me dicen
