@@ -34,8 +34,6 @@ public class BoardManager : MonoBehaviour
         {
             currentTime -= Time.deltaTime;
 
-            timerText.text = $"Tiempo: {currentTime:F1}s";
-
             if (currentTime <= 0)
             {
                 LoseTurn();
@@ -114,7 +112,7 @@ bool HasPlayerWon(string[,] board, string player)
     void SwitchPlayer()
     {
         currentPlayer = currentPlayer == "X" ? "O" : "X";
-        currentSprite = currentPlayer == "X" ? xSprite : oSprite;
+        currentSprite = currentPlayer == "X" ? xSprite  : oSprite;
 
         currentTime = turnTime;
         timerRunning = true;
