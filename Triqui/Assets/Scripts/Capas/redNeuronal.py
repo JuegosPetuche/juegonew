@@ -57,7 +57,7 @@ rN.añadirCapa(numNeurona=3, numEntrada=3)
 rN.añadirCapa(numNeurona=3, numEntrada=3)
 rN.añadirCapa(numNeurona=1, numEntrada=3)
 
-rN.entrenar(x, y, epocas=25300, tazaAprendizaje=0.1)
+rN.entrenar(x, y, epocas=50000, tazaAprendizaje=0.1)
 
 print(f"Prediccion: {rN.predecir(x)}")
 
