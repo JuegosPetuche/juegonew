@@ -51,11 +51,11 @@ bool revisarFilas(string Matriz[3][3]) {
 
         if (acumulador == 3) {
 
-            cout << "Hay un ganador en la filas " << i + 1 << " y es " << anterior << " 😁\n";
+            cout << "Hay un ganador en la filas " << i + 1 << " y es " << anterior << "\n";
             return true;
         }
     }
-    cout << "No gano nadie ☹️\n";
+    cout << "No gano nadie \n";
     return false;
 }
 
@@ -78,11 +78,11 @@ bool revisarColumnas(string Matriz[3][3]) {
 
         if (acumulador == 3) {
 
-            cout << "Hay un ganador en la columnas " << i + 1 << " y es " << anterior << " 😁\n";
+            cout << "Hay un ganador en la columnas " << i + 1 << " y es " << anterior << "\n";
             return true;
         }
     }
-    cout << "No gano nadie ☹️\n";
+    cout << "No gano nadie \n";
     return false;
 }
 
@@ -109,10 +109,10 @@ bool revisarDiagonalP(string Matriz[3][3]){
 
     if(acumulador == 3) {
 
-        cout << "Hay un ganador en la diagonal principal y es " << anterior << " 😁\n";
+        cout << "Hay un ganador en la diagonal principal y es " << anterior << " \n";
         return true;
     }
-    cout << "No gano nadie ☹️\n";
+    cout << "No gano nadie \n";
     return false;
 }
 
@@ -129,11 +129,11 @@ bool revisarDiagonalS(string Matriz[3][3]) {
     }
 
     if (acumulador == 3) {
-        cout << "Hay un ganador en la diagonal secundaria y es " << anterior << " 😁\n";
+        cout << "Hay un ganador en la diagonal secundaria y es " << anterior << " \n";
         return true;
     }
 
-    cout << "No ganó nadie ☹️\n";
+    cout << "No ganó nadie \n";
     return false;
 }
 //Entonces que me dicen
