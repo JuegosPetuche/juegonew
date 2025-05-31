@@ -59,4 +59,3 @@ class Cola:
 
         print(f"Esta es la cabeza: {self.cabeza.dato}")
         print(f"Esta es la cola: {self.cola.dato}")
-            
